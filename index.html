@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MultiServices Hub</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/main.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header glass">
+      <div class="brand">
+        <h1>MultiServices</h1>
+        <p class="tag">Téléchargements • Convertisseurs • Utilitaires</p>
+      </div>
+      <nav class="top-nav">
+        <button class="nav-btn" onclick="openPage('tiktok.html')">TikTok</button>
+        <button class="nav-btn" onclick="openPage('pinterest.html')">Pinterest</button>
+        <button class="nav-btn" onclick="openPage('image-uploader.html')">Image → Lien</button>
+        <button class="nav-btn" onclick="openPage('autres-tools.html')">Autres Outils</button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero glass">
+        <h2>Un hub simple et puissant</h2>
+        <p>Colle un lien, choisis le format, télécharge — tout en restant professionnel et sécurisé.</p>
+        <div class="cta-row">
+          <button class="cta" onclick="openPage('tiktok.html')">Commencer — TikTok</button>
+          <button class="cta ghost" onclick="openPage('pinterest.html')">Pinterest</button>
+        </div>
+      </section>
+
+      <section class="tools-grid">
+        <article class="tool-card glass" onclick="openPage('tiktok.html')">
+          <div class="icon">🎬</div>
+          <h3>TikTok Downloader</h3>
+          <p>Télécharge des vidéos TikTok (option sans filigrane).</p>
+        </article>
+
+        <article class="tool-card glass" onclick="openPage('pinterest.html')">
+          <div class="icon">📌</div>
+          <h3>Pinterest Downloader</h3>
+          <p>Récupère vidéos & images depuis Pinterest.</p>
+        </article>
+
+        <article class="tool-card glass" onclick="openPage('image-uploader.html')">
+          <div class="icon">🖼️</div>
+          <h3>Image → Lien</h3>
+          <p>Uploader une image et obtenir un lien direct sécurisé.</p>
+        </article>
+
+        <article class="tool-card glass" onclick="openPage('autres-tools.html')">
+          <div class="icon">⚙️</div>
+          <h3>Autres outils</h3>
+          <p>Convertisseurs, compresseurs, QR generator, background remover, etc.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 MultiServices BY ZÉPHYR<a href="#" class="muted">Mentions légales</a></p>
+    </footer>
+  </div>
+</body>
+</html>
