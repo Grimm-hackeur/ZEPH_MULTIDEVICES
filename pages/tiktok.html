@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Downloader</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/main.js"></script>
+  <script defer src="../js/tiktok.js"></script>
+</head>
+<body>
+  <div class="container">
+    <button onclick="goBack()">← Retour</button>
+    <h2>TikTok Downloader</h2>
+    <div class="glass" style="padding:20px;">
+      <input type="text" id="tiktok-url" placeholder="Colle le lien TikTok ici">
+      <select id="tiktok-format">
+        <option value="mp4">MP4</option>
+        <option value="mp3">MP3</option>
+      </select>
+      <label><input type="checkbox" id="no-watermark"> Sans filigrane</label>
+      <button id="tiktok-download" class="primary">Télécharger</button>
+      <div id="tiktok-result" class="result-area"></div>
+    </div>
+  </div>
+</body>
+</html>

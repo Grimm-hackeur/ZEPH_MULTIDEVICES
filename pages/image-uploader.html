@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image → Lien</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script defer src="../js/main.js"></script>
+  <script defer src="../js/uploader.js"></script>
+</head>
+<body>
+  <div class="container">
+    <button onclick="goBack()">← Retour</button>
+    <h2>Image → Lien</h2>
+    <div class="glass" style="padding:20px;">
+      <input type="file" id="file-input">
+      <input type="text" id="url-input" placeholder="Ou colle une URL">
+      <button id="upload-btn" class="primary">Uploader</button>
+      <div id="upload-result" class="result-area"></div>
+    </div>
+  </div>
+</body>
+</html>
